@@ -1,6 +1,8 @@
+import PropTypes from 'prop-types'
 import { useEffect } from 'react'
 
 const containerStyle = {
+  // 100dvh avoids mobile browser UI bars causing extra unwanted scroll.
   height: '100dvh',
   width: '100vw',
   overflowY: 'scroll',
@@ -25,6 +27,10 @@ const ScrollContainer = ({ children }) => {
       {children}
     </div>
   )
+}
+
+ScrollContainer.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default ScrollContainer
