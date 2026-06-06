@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react'
+import { MailIcon, PhoneIcon } from '../ui/Icons.jsx'
 
 const Footer = () => {
   return (
@@ -11,14 +11,14 @@ const Footer = () => {
 
         <div className="footer-contact">
           <p>
-            <Mail size={16} />
+            <MailIcon size={16} />
             <span>
               contacto@estudio.com
               {/* TODO: reemplazar con email real */}
             </span>
           </p>
           <p>
-            <Phone size={16} />
+            <PhoneIcon size={16} />
             <span>
               +54 9 342 0000000
               {/* TODO: reemplazar con telefono real */}

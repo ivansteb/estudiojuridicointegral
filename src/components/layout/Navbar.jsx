@@ -1,5 +1,5 @@
-import { Menu, X } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import { CloseIcon, MenuIcon } from '../ui/Icons.jsx'
 
 const NAV_LINKS = [
   { label: 'Inicio', href: 'inicio' },
@@ -78,7 +78,7 @@ const Navbar = () => {
           aria-expanded={isMenuOpen}
           aria-label="Abrir menu"
         >
-          {isMenuOpen ? <X size={22} /> : <Menu size={22} />}
+          {isMenuOpen ? <CloseIcon size={22} /> : <MenuIcon size={22} />}
         </button>
       </div>
 

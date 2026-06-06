@@ -1,4 +1,3 @@
-import { Briefcase, FileText, Users } from 'lucide-react'
 import Footer from '../components/layout/Footer.jsx'
 import Navbar from '../components/layout/Navbar.jsx'
 import ScrollContainer from '../components/layout/ScrollContainer.jsx'
@@ -8,15 +7,16 @@ import ContactForm from '../components/sections/ContactForm.jsx'
 import Hero from '../components/sections/Hero.jsx'
 import MapEmbed from '../components/sections/MapEmbed.jsx'
 import TeamMember from '../components/sections/TeamMember.jsx'
+import { BriefcaseIcon, FileTextIcon, UsersIcon } from '../components/ui/Icons.jsx'
 import SectionTitle from '../components/ui/SectionTitle.jsx'
 import WhatsAppButton from '../components/ui/WhatsAppButton.jsx'
 import { AREAS_DATA } from '../data/areas.js'
 import { TEAM_DATA } from '../data/team.js'
 
 const ICONS_BY_NAME = {
-  Users,
-  FileText,
-  Briefcase,
+  Users: UsersIcon,
+  FileText: FileTextIcon,
+  Briefcase: BriefcaseIcon,
 }
 
 const Home = () => {
