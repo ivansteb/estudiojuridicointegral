@@ -29,7 +29,7 @@ const Home = () => {
           <Hero />
         </ScrollSection>
 
-        <ScrollSection id="areas" className="section section-areas">
+        <ScrollSection id="areas" className="section section-areas" tall>
           <div className="section-content">
             <SectionTitle
               title="Áreas de práctica"
@@ -50,7 +50,7 @@ const Home = () => {
           </div>
         </ScrollSection>
 
-        <ScrollSection id="equipo" className="section section-team">
+        <ScrollSection id="equipo" className="section section-team" tall>
           <div className="section-content">
             <SectionTitle
               title="Equipo"
