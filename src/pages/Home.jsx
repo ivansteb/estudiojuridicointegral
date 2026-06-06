@@ -32,8 +32,8 @@ const Home = () => {
         <ScrollSection id="areas" className="section section-areas">
           <div className="section-content">
             <SectionTitle
-              title="Areas de Practica"
-              subtitle="Acompanamos conflictos y decisiones legales con cercania, orden y estrategia."
+              title="Áreas de práctica"
+              subtitle="Acompañamos conflictos y decisiones legales con cercanía, orden y estrategia."
             />
 
             <div className="areas-grid">
@@ -53,7 +53,7 @@ const Home = () => {
         <ScrollSection id="equipo" className="section section-team">
           <div className="section-content">
             <SectionTitle
-              title="El Equipo"
+              title="Equipo"
               subtitle="Profesionales comprometidos con una mirada humana del derecho."
             />
 
@@ -69,7 +69,7 @@ const Home = () => {
           <div className="section-content section-content-contact">
             <SectionTitle
               title="Contacto"
-              subtitle="Cuentanos tu situacion y te responderemos a la brevedad."
+              subtitle="Contanos tu situación y te responderemos a la brevedad."
               align="left"
             />
 

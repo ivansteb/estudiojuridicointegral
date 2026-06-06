@@ -3,8 +3,8 @@ import { CloseIcon, MenuIcon } from '../ui/Icons.jsx'
 
 const NAV_LINKS = [
   { label: 'Inicio', href: 'inicio' },
-  { label: 'Areas de Practica', href: 'areas' },
-  { label: 'El Equipo', href: 'equipo' },
+  { label: 'Áreas de práctica', href: 'areas' },
+  { label: 'Equipo', href: 'equipo' },
   { label: 'Contacto', href: 'contacto' },
 ]
 
